@@ -1,0 +1,134 @@
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+align-items: center;
+background-color: white;
+margin-top: -5px;
+height: 65px;
+position:fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1 ;
+
+}
+.left-side
+{display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    width:300px;
+    align-items: center;
+    
+  
+}
+.hamburger
+{
+    width: 33px;
+    margin-right: 30px;
+}
+
+.middle-side
+{
+    display: flex;
+    flex: 1;
+    background-color: white;
+    margin-left: 105px;
+    margin-right: 65px;
+
+}
+.search-bar::placeholder
+{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.search-bar
+{
+    flex: 1;
+    height: 40px;
+    border: 2px solid rgb(189, 188, 188);
+    border-radius: 1px;
+    max-width: 700px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0,0.15);
+      font-size: 20px;
+      padding-left: 10px;
+}
+.search-icon2
+{
+    width: 25px;
+    cursor: pointer;
+}
+.search-icon2:hover
+{
+    opacity: 0.3;
+}
+.search-icon
+{
+    width: 75px;
+    height: 47px;
+    margin-left: -5px;
+    background-color: rgb(230, 222, 222);  
+    border: 2px solid rgb(189, 188, 188);
+}
+.voice-icon
+{
+    width: 30px;
+}
+.search-voice-icon
+{
+    width: 50px;
+    height: 45px;
+    border-radius: 25px;
+    margin-left: 15px;
+    background-color:rgb(247, 239, 239); 
+    border: none;
+
+}
+.right-side
+{display: flex;
+    width: 300px;
+    flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.upload
+{ width: 50px;
+    height: 35px;
+
+}
+.youtube-app
+{
+    width:50px;
+    height: 35px;
+}
+.youtube-note
+{
+    width:50px;
+    height: 35px;
+    
+}
+.container
+{
+    position: relative;
+}
+.note
+{
+    position: absolute;
+    top:-4px;
+    right: 2px;
+    font-size: 17px;
+    padding-left: 5px;
+    background-color: rgb(196, 28, 28);
+    color: white;
+    width: 16px;
+    border-radius: 9px;
+}
+.profile
+{margin-left: -10px;
+    width: 48px;
+    height: 45px;
+    border-radius: 24px;
+    object-fit: cover;
+}
